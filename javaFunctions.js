@@ -1,4 +1,5 @@
-
+// adding lodash library
+var _ = require("lodash")
 
 function sayhi(name, secondName) {
 	return "hi " + name + " and " + secondName
@@ -20,7 +21,7 @@ function forEach(collection, func){
 //	return elem * elem
 //}//)
 
-// Function Type: Mapping
+// Function Type: Map
 // mapping - container (type: arrat) of elements, length and 
 // making a new collection
 //
@@ -35,7 +36,9 @@ function map(collection, func) {
 return mapped	
 }
 
-var result = map([1, 2, 5, 48, 9, 4], function(elem) {
+var result = _.map([1, 2, 5, 48, 9, 4], function(elem) {
 	return elem * elem
 })
 console.log(result)
+
+
