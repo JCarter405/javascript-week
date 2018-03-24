@@ -42,3 +42,25 @@ var result = _.map([1, 2, 5, 48, 9, 4], function(elem) {
 console.log(result)
 
 
+
+var stringCommas = "1, 2, 3, 5, 8"
+console.log(_.split(stringCommas, ','))
+
+var MyArray = [1, 2, 3]
+console.log(_.head(MyArray))
+console.log(_.tail(MyArray))
+
+var dupArray = [1, 3, 4, 5, 7, 8]
+console.log(_.uniq(dupArray))
+
+
+
+
+
+
+
+
+
+
+
+
